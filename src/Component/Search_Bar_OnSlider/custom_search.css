@@ -1,11 +1,11 @@
 .searchBox {
   height: 100px;
   width: 1000px;
-  margin-left: 18%;
+  margin-left: 13%;
   position: absolute;
 
   border-radius: 5px;
-  margin-top: -320px;
+  margin-top: -360px;
   overflow: hidden;
   
   background-color: rgba(243, 243, 243, 0.25);

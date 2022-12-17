@@ -8,13 +8,14 @@ import Custom_Search from "./Search_Bar_OnSlider/custom_Search";
 import Blog from "./Blog/blog";
 import Footer from "./footer/footer";
 import Cuisine from "./cuisine/cuisine";
+import Sticky from "./stickybar/sticky";
 import "../App.css";
 const Main = () => {
   const { sticky, stickyRef } = useSticky();
   return (
     <>
-      <header className="header" style={{ height: 100 }}>
-        <h1>Header</h1>
+      <header className="header">
+        <Sticky />
       </header>
       <nav ref={stickyRef} className={classNames("nav", { sticky })}>
         <Topbar />
