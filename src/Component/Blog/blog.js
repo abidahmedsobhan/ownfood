@@ -1,5 +1,5 @@
 import React from "react";
-
+import SimpleImage from "../../assets/img/simpleImage.jpg";
 const Blog = () => {
   return (
     <section className="services py-4 bg-light">
@@ -12,11 +12,7 @@ const Blog = () => {
         <div className="row">
           <div className="col-sm-12 col-md-4 col-lg-4 col-12">
             <div className="card">
-              <img
-                src="http://fitmeal.like-themes.com/wp-content/uploads/2018/02/blog_24-1150x720.jpg"
-                className="card-img-top"
-                alt="..."
-              />
+              <img src={SimpleImage} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -31,11 +27,7 @@ const Blog = () => {
           </div>
           <div className="col-sm-12 col-md-4 col-lg-4 col-12">
             <div className="card">
-              <img
-                src="http://fitmeal.like-themes.com/wp-content/uploads/2018/02/blog_24-1150x720.jpg"
-                className="card-img-top"
-                alt="..."
-              />
+              <img src={SimpleImage} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -50,11 +42,7 @@ const Blog = () => {
           </div>
           <div className="col-sm-12 col-md-4 col-lg-4 col-12">
             <div className="card">
-              <img
-                src="http://fitmeal.like-themes.com/wp-content/uploads/2018/02/blog_24-1150x720.jpg"
-                className="card-img-top"
-                alt="..."
-              />
+              <img src={SimpleImage} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">

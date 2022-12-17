@@ -1,5 +1,6 @@
 import React from "react";
 import "./cuisine.css";
+import SimpleImage from "../../assets/img/simpleImage.jpg";
 
 const Cuisine = () => {
   let items = document.querySelectorAll(".carousel .carousel-item");
@@ -36,10 +37,7 @@ const Cuisine = () => {
                 <div className="col-md-3">
                   <div className="card">
                     <div className="card-img">
-                      <img
-                        src="http://fitmeal.like-themes.com/wp-content/uploads/2018/02/blog_01-1150x720.jpg"
-                        className="img-fluid"
-                      />
+                      <img src={SimpleImage} className="img-fluid" />
                     </div>
                     <div className="card-img-overlay"></div>
                   </div>
@@ -49,10 +47,7 @@ const Cuisine = () => {
                 <div className="col-md-3">
                   <div className="card">
                     <div className="card-img">
-                      <img
-                        src="http://fitmeal.like-themes.com/wp-content/uploads/2018/02/blog_24-1150x720.jpg"
-                        className="img-fluid"
-                      />
+                      <img src={SimpleImage} className="img-fluid" />
                     </div>
                     <div className="card-img-overlay"></div>
                   </div>
@@ -62,10 +57,7 @@ const Cuisine = () => {
                 <div className="col-md-3">
                   <div className="card">
                     <div className="card-img">
-                      <img
-                        src="http://fitmeal.like-themes.com/wp-content/uploads/2018/02/blog_01-1150x720.jpg"
-                        className="img-fluid"
-                      />
+                      <img src={SimpleImage} className="img-fluid" />
                     </div>
                     <div className="card-img-overlay"></div>
                   </div>
@@ -75,10 +67,7 @@ const Cuisine = () => {
                 <div className="col-md-3">
                   <div className="card">
                     <div className="card-img">
-                      <img
-                        src="http://fitmeal.like-themes.com/wp-content/uploads/2018/02/blog_24-1150x720.jpg"
-                        className="img-fluid"
-                      />
+                      <img src={SimpleImage} className="img-fluid" />
                     </div>
                     <div className="card-img-overlay"></div>
                   </div>
@@ -88,10 +77,7 @@ const Cuisine = () => {
                 <div className="col-md-3">
                   <div className="card">
                     <div className="card-img">
-                      <img
-                        src="http://fitmeal.like-themes.com/wp-content/uploads/2018/02/blog_01-1150x720.jpg"
-                        className="img-fluid"
-                      />
+                      <img src={SimpleImage} className="img-fluid" />
                     </div>
                     <div className="card-img-overlay"></div>
                   </div>
@@ -101,10 +87,7 @@ const Cuisine = () => {
                 <div className="col-md-3">
                   <div className="card">
                     <div className="card-img">
-                      <img
-                        src="http://fitmeal.like-themes.com/wp-content/uploads/2018/02/blog_24-1150x720.jpg"
-                        className="img-fluid"
-                      />
+                      <img src={SimpleImage} className="img-fluid" />
                     </div>
                     <div className="card-img-overlay"></div>
                   </div>
