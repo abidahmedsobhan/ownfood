@@ -2,8 +2,8 @@ import React from "react";
 import { Box, Typography } from "@mui/material";
 import "./slider.css";
 import Slider from "react-slick";
-import Bg from "../../assets/img/slider.jpg";
-import Bg2 from "../../assets/img/slider2.jpg";
+import Bg from "../../assets/img/SLIDE_01.jpg";
+import Bg2 from "../../assets/img/SLIDE_03.jpg";
 import Custom_Search from "../Search_Bar_OnSlider/custom_Search";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -72,11 +72,7 @@ const MySlider = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <div className="slider-opacity-layer"></div>
-          <img
-            src="http://fitmeal.like-themes.com/wp-content/uploads/2018/02/SLIDE_01.jpg"
-            className="d-block w-100 h-auto"
-            alt="..."
-          />
+          <img src={Bg} className="d-block w-100 h-auto" alt="..." />
 
           <div className=" row slider-overlay ">
             <h1
@@ -89,11 +85,7 @@ const MySlider = () => {
         </div>
         <div className="carousel-item">
           <div className="slider-opacity-layer"></div>
-          <img
-            src="http://fitmeal.like-themes.com/wp-content/uploads/2018/02/SLIDE_03.jpg"
-            className="d-block w-100 "
-            alt="..."
-          />
+          <img src={Bg2} className="d-block w-100 " alt="..." />
           <div className=" row slider-overlay ">
             <h1
               className="text-center"
@@ -105,11 +97,7 @@ const MySlider = () => {
         </div>
         <div className="carousel-item">
           <div className="slider-opacity-layer"></div>
-          <img
-            src="http://fitmeal.like-themes.com/wp-content/uploads/2018/02/SLIDE_01.jpg"
-            className="d-block w-100"
-            alt="..."
-          />
+          <img src={Bg} className="d-block w-100" alt="..." />
           <div className=" row slider-overlay ">
             <h1
               className="text-center"

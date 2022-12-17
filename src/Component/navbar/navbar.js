@@ -22,12 +22,18 @@ const Appbar = () => {
           </button>
 
           <form className="d-flex" role="search">
-            <input
+            {/* <div class="col-xs-6"> */}
+            <div class="right-inner-addon">
+              <i class="fa fa-search "></i>
+              <input type="search" class="form-control" placeholder="Search" />
+              {/* </div> */}
+            </div>
+            {/* <input
               className="form-control me-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
-            />
+            /> */}
             {/* <button className="btn btn-outline-success" type="submit">
               Search
             </button> */}
